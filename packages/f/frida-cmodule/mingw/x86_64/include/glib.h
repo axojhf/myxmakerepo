@@ -4,10 +4,6 @@
 #include <stddef.h>
 #include <stdint.h>
 #include <stdio.h>
-#if defined(_MSC_VER)
-#include <BaseTsd.h>
-typedef SSIZE_T ssize_t;
-#endif
 #ifndef FALSE
 #define FALSE 0
 #endif
